@@ -4,9 +4,11 @@
   font-size: 16px;
   text-anchor: middle;
 }
-.axis-text{
+
+.axis-text {
   text-anchor: middle;
 }
+
 .active {
   font-weight: bold;
   fill: #000;
@@ -73,4 +75,5 @@
     font-size: 13px;
   }
 }
+
 /************** End of CSS ****************/
