@@ -1,0 +1,79 @@
+/**** Unit 16 | Assignment - Data Journalism and D3: Start of CSS ****/
+
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+  background:#e6ffff;
+}
+
+/* The footer is positioned at the bottom of the page */
+footer{
+  position: absolute;
+  visibility: visible;
+  
+  padding: 10px;
+  left:0;
+  bottom: -50px;
+  height:60px;
+  background-color: #00cccc;
+  color:#99ff33;
+  text-align: center;
+  width: 100%; 
+  border-top: 20px;  
+  border-top-color:#004d4d;
+  border-width: 5px;
+  border-top-style: solid;    
+  }
+/* Jumbotron style */
+.heading { background-color:  #00cccc;
+
+}
+#scatter{
+  padding: 20px;
+  background-color: beige;
+}
+/* Set all the 'h' and 'p' style */
+h1{
+  color:  #b32d00;
+  font-size: 68px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2{
+  color: #004b4d;
+  font-style: italic;
+  text-decoration: underline;
+  font: bold;
+  
+}
+p{
+  color: #004d4d;
+  
+  font: bold;
+  
+}
+img{padding: 20px;
+  width: 20%;
+
+}
+.row{
+  padding-bottom: 20px;
+}
+/* This CSS styles: add border- to highlight */
+
+.highlight{
+  border-color: #99ff33;
+  border-style: solid;
+  border-width: 3px;
+  
+}
+/************** End of CSS ****************/

@@ -1,0 +1,88 @@
+<!-- Unit 16 | Assignment - Data Journalism and D3 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- All meta tags should be first in the header-->
+  <meta charset="UTF-8">
+  <title>D3Times: Data Journalism</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap links -->
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!--The following uses data URI and can be used to avoid fake favicon requests:-->
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+<!-- css Style Scripts-->  
+  <link rel="stylesheet" href="assets/css/style.css?v=01252019">
+  <link rel="stylesheet" href="assets/css/d3Style.css?v=01252019">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 heading text-center highlight">
+        <h1><img src = "assets/images/health_news.jpeg">
+          D3Times</h1>
+      </div>  
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-1"></div>
+      <div class="col-xs-12  col-md-9 ">
+        <div id="scatter" class="highlight">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-1"></div>
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2><i class="far fa-newspaper"></i>Correlations Discovered Between Health Risks and Age, Income</h2>
+          <p>
+          Research has shown a link between
+          poverty and poor health. People with
+          more income tends to be healthier and
+          live longer. What explains the connection? Many factors.
+          For one, lack of care. We know that
+          18.5% of the U.S. non-elderly population does not have health insurance,
+          with low-income families especially
+          vulnerable to being uninsured.
+          Nearly 70% of the uninsured population is poor or near-poor. The uninsured
+          tend to forego preventative care and
+          to wait until an illness is severe before
+          seeking medical care. </p>
+
+          <p>In the U.S., people living below the poverty level have higher rates of cigarette smoking than the general population. </p>
+
+          <p>The U.S. is one of the wealthiest countries in the world and accordingly has high obesity rates. </p>
+          <p>Mississippi is one of the low-income state with higher obesity rate (35.5%) on the other hand Washington D.C. is one of the high-income state with lower obesity rate (21.7%).</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- End of Main container-->
+   <footer>
+      <!-- Copyright -->
+        <p>
+            Data Journalism and D3 | <i class="far fa-copyright"></i> Copyright 2019: Minal Jajoo
+        </p>      
+      </footer>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js?v=01252019"></script>
+
+</body>
+
+</html>
+<!------------ End of HTML ---------------->
